@@ -1,0 +1,19 @@
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  /* Адаптивность */
+  @media (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+  }
+  
+  /* Улучшения для мобильных */
+  @media (max-width: 480px) {
+    /* Скрыть некоторые элементы на маленьких экранах */
+    .desktop-only {
+      display: none;
+    }
+  }
